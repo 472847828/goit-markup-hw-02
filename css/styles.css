@@ -1,0 +1,114 @@
+:root {
+  --white-color: #ffffff;
+  --basic-color-text: #212121;
+  --hover-color: #2196f3;
+  --button-background-color: #f5f4fa;
+  --complementary-color-text: #757575;
+  --contacts-footer-color: ;
+  --footer-backgraund-color: #2f303a;
+}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--body-background-color);
+  color: var(--white-color);
+}
+.logo-header {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--hover-color);
+}
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: var(--basic-color-text);
+  background-color: var(--button-background-color);
+}
+.contacts-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+
+  color: var(--complementary-color-text);
+}
+.contacts-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.nav-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--basic-color-text);
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+  background-color: var(--hover-color);
+}
+.nav-button:hover,
+.nav-button:focus {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+}
+.nav-button {
+  cursor: pointer;
+}
+.portfolio-elements > .title-elements {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: var(--basic-color-text);
+}
+.portfolio-elements > .text-elements {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--complementary-color-text);
+}
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  background-color: var(--footer-backgraund-color);
+}
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--white-color);
+}
