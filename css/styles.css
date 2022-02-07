@@ -22,6 +22,9 @@ font-family: 'Roboto', sans-serif; */
 
   background: var(--white-color);
 }
+.nav > .current {
+  color: var(--hover-color);
+}
 .logo-header {
   font-family: var(--secondary-font-family);
   font-weight: bold;
@@ -79,6 +82,7 @@ font-family: 'Roboto', sans-serif; */
 
   background: var(--footer-backgraund-color);
 }
+
 .button-hero {
   font-family: var(--primary-font-family);
   border: 0;
